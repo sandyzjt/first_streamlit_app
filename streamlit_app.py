@@ -31,7 +31,7 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 streamlit.dataframe(fruits_to_show)
 
 # dont run anything past here while we troubleshoot
-strealit.stop()
+streamlit.stop()
 
 # import snowflake.connector
 
